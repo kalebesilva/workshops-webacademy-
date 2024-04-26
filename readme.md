@@ -4,14 +4,13 @@
 
 ### Parte teórica
 
-- classes o objetos
+- classes e objetos
+- pilares da orientação a objetos
 
-- Os pilares da orientação a objetos
-
-1. Abstração
-2. Encapsulamento
-3. Herança
-4. Polimorfismo
+    - Abstração
+    - Encapsulamento
+    - Herança
+    - Polimorfismo
 
 
  
