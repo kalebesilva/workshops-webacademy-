@@ -1,7 +1,7 @@
 # Workshop webacademy poo em java
 
 ## Roteiro
-
+Parte prática é usando o replit java
 ### Parte teórica
 
 #### Base da linguagem
@@ -47,7 +47,7 @@
     - Encapsulamento
     - Herança
     - Polimorfismo
-
+  
   
   
 
