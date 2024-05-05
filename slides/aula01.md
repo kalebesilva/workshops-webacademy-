@@ -24,7 +24,7 @@ paginate: true
 
 </style>
 
----
+
 # *Oficina de Java*  
 
 ![bg right 100%](https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png)
@@ -55,7 +55,7 @@ paginate: true
 3. Java é lento? HotSpot e JIT
 3. JVM? JRE? JDK? 
 3. Os objetivos do Java
-3. Compilando o primeiro hello word
+3. Escrevendo o primeiro hello word
 3. Executando o primeiro hello world
 3. O que aconteceu?
   
@@ -134,3 +134,65 @@ paginate: true
 * Just inTime (JIT);
 * Compila de forma dinâmica;
 * Busca performar a execucao da melhor forma possível;
+
+---
+
+## 4 JVM? JRE? JDK?
+
+![bg right:45% width:80% ](https://i.pinimg.com/originals/e6/87/5f/e6875fa926dbb8127cabaeb5e19ea93c.jpg)
+
+* JVM - Java virtual machine
+* JRE - Java Runtime	Environment
+* JDK - Java Development Kit;
+* JDK = JRE + JVM + tools
+
+---
+
+## 5 Os objetivos do Java
+
+* Java é mais trabalhoso, mas tem um motivo...
+* Ele não foca em sistemas pequenos;
+
+
+![bg right:45%](https://th.bing.com/th/id/R.c5a7297881e4605284b7e53f3121e1d0?rik=457%2fDS4Ok6exww&riu=http%3a%2f%2f1.bp.blogspot.com%2f_fU7LdRkUMVM%2fTSC6u0M17jI%2fAAAAAAAADhE%2fHZrQKLQ6IIA%2fs1600%2fMO7036.jpg&ehk=Em71KbTQcZr2Rn08BuzzRsvuc8iDeopuLrI%2fDcsf%2fPY%3d&risl=&pid=ImgRaw&r=0)
+
+---
+
+![bg left:33%](https://i.pinimg.com/originals/e1/42/85/e142852e67d0e9e2126debf7c42490cc.jpg)
+
+* Ele foca em sistemas medio e grande porte, de alta complexidade;
+* Java visa escalabilidade;
+
+--- 
+
+# 6 Escrevendo o primeiro Hello world
+
+```Java
+public class HelloWorld {
+  
+  public static void main(String[] args){
+    
+    System.out.println("Hello world!");
+    
+  }
+  
+}
+```
+---
+
+# 7 Executando o primeiro Hello world
+
+1. Salve o arquivo como hello.java
+2. Execute o seguinte comando:
+
+```cmd
+> javac HelloWorld.java
+```
+3. Invoque a JVM com o seguinte comando:
+
+```cmd
+> java HelloWorld
+``` 
+
+
+
