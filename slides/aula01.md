@@ -57,7 +57,7 @@ paginate: true
 3. Os objetivos do Java
 3. Escrevendo o primeiro hello word
 3. Executando o primeiro hello world
-3. O que aconteceu?
+
   
 ---
 
