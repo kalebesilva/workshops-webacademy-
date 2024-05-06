@@ -45,7 +45,8 @@ paginate: true
 
 # *Referências*
 
-[Caelum - Apostila java orientacao a objetos](https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+[Caelum - Apostila java orientação a objetos](https://www.caelum.com.br/apostila/apostila-java-orientacao-objetos.pdf)
+
 
 ---
 # *Curiosidades sobre a linguagem*
@@ -77,7 +78,7 @@ paginate: true
 
 - the Green	Team, liderado por James Gosling;
 - O primeiro fracasso;
-- O lancamento oposto a proposta de criacao; 
+- O lancamento oposto a proposta de criação; 
 -  A reviravolta;
 
 ![bg right:45% ](https://th.bing.com/th/id/R.def93d0484ede0767cf06d453ed62afd?rik=6grLXV3ZZs0pPQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-dJAe_zEuTzQ%2fUchogDosx-I%2fAAAAAAAACQE%2fh32Z1a2WT3w%2fw1200-h630-p-k-no-nu%2fJamesGoslingJava.jpg&ehk=anaR18y4PX7pMnIkONZ7N7eauaObklx2oXD7e56XLQw%3d&risl=&pid=ImgRaw&r=0)
@@ -121,7 +122,7 @@ paginate: true
 
 ![bg right width:100%](https://th.bing.com/th/id/OIP.KbO0wH-DUTb_f8__Cuch_gAAAA?rs=1&pid=ImgDetMain)
 
-* Quem roda a aplicacao é a JVM
+* Quem roda a aplicação é a JVM
 * Compila com _javac_ e roda na JVM.
 
 ---
@@ -130,10 +131,10 @@ paginate: true
 
 ![bg right:50%](https://extra.globo.com/incoming/7328629-a97-db8/w976h550-PROP/filas-banco.jpg)
 
-* Detecta pontos quentes na aplicacao (Hotspot);
+* Detecta pontos quentes na aplicação (Hotspot);
 * Just inTime (JIT);
 * Compila de forma dinâmica;
-* Busca performar a execucao da melhor forma possível;
+* Busca performar a execução da melhor forma possível;
 
 ---
 
@@ -193,6 +194,90 @@ public class HelloWorld {
 ```cmd
 > java HelloWorld
 ``` 
+---
+
+# Variáveis primitivas e controle de fluxo
+
+#### Objetivos de aprendizado:
+* Declaração e	atribuição	de	valores,	casting	e	comparação	de	variáveis;
+* Controle	de	fluxo	por	meio	de		if		e		else	;
+* Instruções	de	laço		for		e		while	,	controle	de	fluxo	com	break	e	continue.
+
+---
+
+## 0.1 Aspectos importantes sobre java
+
+* Tipagem estática
+  
+```Java
+public class MyClass {
+    public static void main(String args[]) {
+      int variavel = 10;
+
+      variavel = "Positivo vs Multilaser"; //error: incompatible types: String cannot be converted to int
+    }
+}
+
+```
+---
+
+* Tipagem forte
+
+```Java
+public class MyClass {
+    public static void main(String args[]) {
+      nome = "Team fortress 2"; //Type: #str
+      idade = 28; //Type: #int
+
+      print(nome + " " + idade);
+      
+      //#TypeError: can only concatenate str (not "int") to str
+    }
+}
+```
+
+---
+
+##  Declaração e atribuição	de	valores
+
+![](/img/Tipos%20primitivos.png)
+
+* 8 tipos primitivos basicos
+* declaração básica, não é objeto
+* Dependendo da proporção do sistema, é interessante se atentar ao tamanho de cada tipo.
+
+---
+
+```Java
+public class Variaveis{
+
+    public static void main(String[] args){
+        // Variáveis em Java
+        int idade = 20;
+
+        System.out.println("Eu tenho " + idade + " anos.");
+        
+        double salario = 1000.50;
+
+        System.out.println("Meu salário é R$ " + salario + ".");
+      
+        String nome = "João";
+  
+        System.out.println("Meu nome é " + nome + ".");
+      
+        boolean ehProfessor = true;
+
+        System.out.println("Eu sou professor? " + ehProfessor + ".");
+
+        char UmaLetra = 'A';
+
+        System.out.println("Letra  " + UmaLetra + ".");
+
+    }
+  
+}
+```
+
 
 
 
