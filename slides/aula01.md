@@ -238,6 +238,7 @@ public class MyClass {
 
 ---
 
+
 ##  Declaração e atribuição	de	valores
 
 ![](/img/Tipos%20primitivos.png)
@@ -277,6 +278,7 @@ public class Variaveis{
   
 }
 ```
+
 
 
 
