@@ -1,6 +1,6 @@
 # Workshop webacademy poo em java
 
-## Roteiro
+## Roteiro (que teoricamente deveria ser seguido)
 Parte prática é usando o replit java
 ### Parte teórica
 
