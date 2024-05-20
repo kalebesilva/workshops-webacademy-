@@ -21,7 +21,7 @@ paginate: true
 ## 1 Abstração
 
 * Este é o segundo pilar da POO
-* Ele se refere à capacidade de extrair características e comportamentos relevantes de uma determinado objeto do mundo real. (SOUSA, O.)
+* Ele se refere à capacidade de extrair características e comportamentos relevantes de um determinado objeto do mundo real. (SOUSA, O.)
 
 ---
 
