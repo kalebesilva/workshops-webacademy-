@@ -15,7 +15,13 @@ public class App {
 
         carlos.reprovar(false);
     
+        carlos.getNome();
 
+        System.out.println(carlos.getNome());
+
+        carlos.setNome("Teste");
+
+        System.out.println(carlos.getNome());
  
 
 

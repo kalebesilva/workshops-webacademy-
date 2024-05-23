@@ -1,9 +1,9 @@
 public class Aluno {
     
     int idade;
-    String nome;
-    String dataDeNascimento;
-    String matricula;
+    private String nome;
+   public String dataDeNascimento;
+    private String matricula;
     int numeroDaSala;
     String grauDeEscolaridade;
     boolean presenca = true;
@@ -40,7 +40,12 @@ public class Aluno {
             return statusDeReprovacao;
     }
 
-
+    public String getNome(){
+        return this.nome;
+    }
    
+    public void setNome( String novoNome){
+        this.nome = novoNome;
+    }
 
 }
